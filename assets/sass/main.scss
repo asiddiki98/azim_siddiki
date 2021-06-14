@@ -333,9 +333,10 @@
 
 	header {
 		p {
-			color: _palette(fg-light);
+			color: _palette();
 			position: relative;
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
+			
 		}
 
 		h2 + p {
@@ -733,6 +734,7 @@
 				border-radius: 100%;
 				display: block;
 				width: 100%;
+				
 			}
 		}
 
@@ -1827,3 +1829,4 @@
 			}
 
 	}
+
